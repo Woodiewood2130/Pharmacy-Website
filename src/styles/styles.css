@@ -174,9 +174,10 @@ header{
     flex-wrap: wrap;
 } */
 
-@media (max-width: 800px) {
-    .flex-item-right, .flex-item-left {
-      flex: 100%;
+@media screen and (max-width: 600px) {
+    .topnav a {
+      float: none;
+      width: 100%;
     }
   }
 
