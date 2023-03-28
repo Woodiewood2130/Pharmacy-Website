@@ -2,18 +2,19 @@
 
 html,
 body {
-    background-color: #3BBCA3;
+    background-color: #1F7075;
 }
 
 .nav {
-    background-color: #333;
+    background-color: #cecece;
     overflow: auto;
     border-radius: 4px;
+    margin-bottom: 10px;
 }
 
 .nav a {
     float: left;
-    color: #f2f2f2;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -22,12 +23,12 @@ body {
 
 .nav a:hover {
     background-color: #B6D2B1;
-    color: black;
+    color: white;
 }
 
 .nav a.active {
     background-color: #20685C;
-    color: white;
+    color: black;
 }
 
 .nav-right {
@@ -39,7 +40,7 @@ header{
     font-weight: 500;
     color: #232836;
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
 .open-button {
@@ -141,6 +142,43 @@ header{
     border: 2px solid;
     border-radius: 2px;
 
+}
+
+.flex-container{
+    display: flex;
+    
+    /* grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 120px 120px; */
+    justify-content: space-around;
+    /* justify-self: center; */
+    border: 1px solid;
+    flex-flow: row wrap;
+    margin-bottom: 10px;
+    align-items: center;
+    
+}
+
+.item {
+    width: 100px;
+    margin: 20px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 30px;
+}
+
+/* #item4, #item5 {
+    align-self: flex-end;
+} */
+
+/* p .item-container{
+    flex-wrap: wrap;
+} */
+
+@media screen and (max-width: 600px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
 }
 
 
