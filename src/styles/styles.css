@@ -175,9 +175,9 @@ header{
     flex-wrap: wrap;
 } */
 
-* {
+/* * { give me error for login popup
     box-sizing: border-box;
-  }
+  } */
   
 @media screen and (max-width: 400px) {
     .nav a {
