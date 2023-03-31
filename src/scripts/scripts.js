@@ -33,3 +33,13 @@ links.forEach(link => {
        forms.classList.toggle("show-signup");
     })
 })
+
+const buttonRight = document.getElementById('slideRight');
+const buttonLeft = document.getElementById('slideLeft');
+
+buttonRight.onclick = function () {
+  document.getElementById('items_flex_container').scrollLeft += 50;
+};
+buttonLeft.onclick = function () {
+  document.getElementById('items_flex_container').scrollLeft -= 50;
+};
