@@ -142,14 +142,10 @@ header{
 
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 .container {
     height: 100vh;
+    
     width: 100%;
     display: flex;
     border: 2px solid;
@@ -161,6 +157,9 @@ header{
 
 .form{
     position: absolute;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     max-width: 430px;
     width: 100%;
     padding: 30px;
@@ -187,8 +186,9 @@ header{
 
 form{
     margin-top: 30px;
+    
 }
-.form .field{
+.form .field{    
     position: relative;
     height: 50px;
     width: 100%;
@@ -197,6 +197,9 @@ form{
 }
 .field input,
 .field button{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     height: 100%;
     width: 100%;
     border: none;
@@ -227,6 +230,7 @@ form{
     background-color: #0171d3;
     transition: all 0.3s ease;
     cursor: pointer;
+    margin: auto;
 }
 .field button:hover{
     background-color: #016dcb;
