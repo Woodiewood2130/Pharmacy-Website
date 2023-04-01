@@ -1,10 +1,27 @@
-function openForm() {
-  document.getElementById("loginform").style.display = "block";
-}
+// function openForm() {
+//   document.getElementById("loginform").style.display = "block";
+// }
 
 function closeForm() {
   document.getElementById("loginform").style.display = "none";
 }
+
+function openForm() {
+    document.getElementById("loginform").classList.toggle("show");
+  }
+
+// window.onclick = function(event) {
+//     if (!event.target.matches('.open-button')) {
+//       var dropdowns = document.getElementsByClassName(".form-popup");
+//       var i;
+//       for (i = 0; i < dropdowns.length; i++) {
+//         var openDropdown = dropdowns[i];
+//         if (openDropdown.classList.contains('show')) {
+//           openDropdown.classList.remove('show');
+//         }
+//       }
+//     }
+//   }
 
 const forms = document.querySelector(".forms"),
       pwShowHide = document.querySelectorAll(".eye-icon"),
