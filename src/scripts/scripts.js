@@ -6,6 +6,7 @@
 //   document.getElementById("loginform").style.display = "none";
 // }
 
+//Fucntion for the login popup.
 function openForm() {
     document.getElementById("loginform").classList.toggle("show");
   }
@@ -43,24 +44,20 @@ function openForm() {
 //     }
 //   }
 
-const display = document.getElementById("display");
-const display2 = document.getElementById("display2");
+//counter for the products
+const display1 = document.getElementById("display1");
 
-
-// use onclick api
 function counter_add() {
     document.getElementById("plus");
-    const number = display.innerText;
-    display.innerText = parseInt(number, 10) + 1;
+    const number1 = display1.innerText;
+    display1.innerText = parseInt(number1, 10) + 1;
 }
 
-// use addEventListener
 function counter_minus() {
     document.getElementById("minus");
-    const number2 = display.innerText;
-    display.innerText = parseInt(number2, 10) - 1;  
+    const number1 = display1.innerText;
+    display1.innerText = parseInt(number1, 10) - 1;  
 }
-
 
 
 const forms = document.querySelector(".forms"),
@@ -95,8 +92,8 @@ const buttonRight = document.getElementById('slideRight');
 const buttonLeft = document.getElementById('slideLeft');
 
 buttonRight.onclick = function () {
-  document.getElementById('items_flex_container').scrollLeft += 50;
+  document.getElementById('items_flex_container').scrollLeft += 150;
 };
 buttonLeft.onclick = function () {
-  document.getElementById('items_flex_container').scrollLeft -= 50;
+  document.getElementById('items_flex_container').scrollLeft -= 150;
 };

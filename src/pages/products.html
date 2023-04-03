@@ -11,23 +11,23 @@
                 <a class="active" href="products.html">Products</a>            
                 <a href="about-us.html">About-Us</a>
                 <div class="nav-right">
-                    <a class="open-button" onclick="openForm()">Login</a>
-
-                    <div class="form-popup" id="loginform">
-                    <form action="form-data.txt" class="form-container">
-                        <header>Login</header>
-                        <input type="email" placeholder="Email" class="input" required>
-                        <input type="password" placeholder="Password" class="password" required>
-                        <div class="form-link">
-                            <a href="#" class="forgot-pass">Forgot password?</a>
-                        </div>
-                        <button type="submit" class="btn">Login</button>
-                        <div class="form-link">
-                            <span>Don't have an account? <a href="#" class="link signup-link">Signup</a></span>
-                        </div>
-                        <button type="button" class="cancel" onclick="closeForm()">Close</button>
-                    </form>
-                    </div> 
+                    <div class="nav-right">
+                        <a class="open-button" onclick="openForm()">Login</a>
+                        <div class="form-popup" id="loginform">
+                            <form action="form-data.txt" class="form-container">
+                                <header>Login</header>
+                                <input type="email" placeholder="Email" class="input" required>
+                                <input type="password" placeholder="Password" class="password" required>
+                                <div class="form-link">
+                                    <a href="#" class="forgot-pass">Forgot password?</a>
+                                </div>
+                                <button type="submit" class="btn">Login</button>
+                                <div class="form-link">
+                                    <span>Don't have an account? <a href="src/pages/signup.html" class="link signup-link">Signup</a></span>
+                                </div>
+                                <!-- <button type="button" class="cancel" onclick="closeForm()">Close</button> -->
+                            </form>
+                        </div> 
                     <a href="signup.html">Sign Up</a>
                 </div>
             </div>
@@ -45,7 +45,7 @@
                         <div class='counter_flex'>
                             <div class='control'>
                                 <button onclick="counter_add()" id='plus'>+</button>
-                                <div id='display'>0</div>
+                                <div id='display1'>0</div>
                                 <button onclick="counter_minus()" id='minus'>-</button>
                             </div>
                       </div>
