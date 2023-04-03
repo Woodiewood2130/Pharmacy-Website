@@ -66,7 +66,7 @@ header{
 }
 
 .form-container {
-    max-width: 270px;
+    max-width: 290px;
     max-height: fit-content;
     padding: 10px;
     background-color: white;
@@ -159,8 +159,52 @@ header{
     background-image:linear-gradient(to bottom, rgb(30, 112, 117), rgb(32, 178, 170));
     width: 100%;
     height: 55vh;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    /* margin-bottom: auto; */
+}
+
+#flex_container_head1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+    width: 95%;
+    height: 40%;
+    background-color: #B6D2B1;
     margin-bottom: 10px;
 }
+#flex_container_head2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+    width: 95%;
+    height: 40%;
+    background-color: #B6D2B1;
+    
+}
+
+.head_item {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.head_item a{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+#head img {
+    height: 50%;
+    width: 60%;
+}
+
 
 #home-product {
     background-color: white;
@@ -237,7 +281,6 @@ header{
 
 
 /* Products Page CSS */
-
 .beauty_care {
     background-color: rgb(32, 178, 170);
 }

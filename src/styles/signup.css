@@ -173,11 +173,13 @@ header{
 
 .form.signup{
     margin: 8% 40%;
-    display: block;
+    display: flex;
+    justify-content: center;
     opacity: 1;
     pointer-events: auto;
 }
 .forms.show-signup .form.signup{
+    
     opacity: 1;
     pointer-events: auto;
 }
@@ -329,8 +331,8 @@ a.google span{
 
 
 
-@media screen and (max-width: 400px) {
+/* @media screen and (max-width: 400px) {
     .form{
         padding: 20px 10px;
     } 
-}
+} */
